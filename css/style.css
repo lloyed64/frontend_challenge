@@ -1,0 +1,191 @@
+
+*, *::before, *::after { box-sizing: border-box;}
+
+
+body {
+	box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 10px;
+
+}
+
+.container {
+	box-sizing: border-box;
+  margin: 0 auto;
+  width:360px;
+	background-color: #605E5E;
+}
+
+nav {
+	box-sizing: border-box;
+	padding: 10px 0 15px 15px;
+  position: fixed;
+	background-color:#3d3d3d;
+  width: 360px;
+}
+
+nav .arrow-left, .routedata{
+	display: inline-block;
+}
+
+.arrow-left {
+	padding-top: 5px;
+	margin-left: 6px;
+}
+ .fa-inverse{
+    color: #15b371;
+}
+
+.routedata{
+	font-size: 18px;
+	padding-left: 18%;
+	font-weight: medium;
+	color: white;
+}
+
+.list {
+	box-sizing: border-box;
+  padding-top: 50px;
+	width: 100%;
+}
+.list2{
+	box-sizing: border-box;
+	width: 100%;
+}
+
+
+.bound h2 {
+padding-left: 21px;
+padding-top: 10px;
+padding-bottom: 10px;
+background-color: #605E5E;
+color:white;
+font-weight:200;
+font-size: 14px;
+margin-top: 5px;
+}
+
+
+
+.LDF div, h3 {
+	display:inline-block;
+	font-size: 14px;
+	font-weight: bold;
+ 	color:white;
+}
+.line{
+	padding:10px;
+	padding-left:21px;
+}
+.destination{
+	margin-left: 19px;
+
+}
+.frequency{
+	padding:10px;
+	margin-left: 65px;
+}
+
+/* content is the darker block */
+.content {
+	width: 360px;
+	background-color:#3D3D3D;
+	border-bottom: .5px solid#525252;
+}
+.content:hover{
+
+	opacity: 0.3;
+  filter: alpha(opacity=30);
+}
+
+
+.information div {
+	padding: 6%;
+}
+.information div, h4{
+	font-size: 12px;
+	display: inline-block;
+	color:white;
+}
+
+
+
+	/* This is for adjusting the margins for the information */
+	/*Couldn't figure out a better way to do this */
+}
+
+.info1 {
+margin-right: 1px;
+}
+
+.info11{
+margin-right: -4px;
+}
+
+.info2 {
+margin-right: -4px;
+}
+
+.info22{
+margin-right: 55px;
+}
+
+
+.info3{
+margin-left: 1px;
+margin-right: -6px;
+}
+.info33{
+
+margin-right: 21px;
+}
+
+.info4{
+margin-left: 1px;
+margin-right: -6px;
+}
+.info44{
+margin-right: -13px;
+}
+
+
+.info5{
+margin-left: 1px;
+margin-right: -4px;
+}
+.info55{
+margin-right: 33px;
+}
+
+.info6{
+margin-left: 1px;
+margin-right: 1px;
+}
+.info66{
+margin-right: -10px;
+}
+
+
+.info7{
+margin-left: 1px;
+margin-right: 7px;
+}
+.info77{
+margin-right:29px;
+}
+
+.info8{
+margin-left: 1px;
+margin-right: 2px;
+}
+.info88{
+margin-right:60px;
+}
+
+.info9{
+margin-left: 1px;
+margin-right: -5px;
+}
+.info99{
+margin-right:8px;
+}
