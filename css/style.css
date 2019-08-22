@@ -4,8 +4,7 @@
 
 body {
 	box-sizing: border-box;
-  font-family: sans-serif;
-  font-size: 10px;
+  font-family: 'Roboto', sans-serif;
 
 }
 
@@ -16,176 +15,195 @@ body {
 	background-color: #605E5E;
 }
 
+.status_bar{
+	margin-bottom:-4px;
+}
+
 nav {
 	box-sizing: border-box;
-	padding: 10px 0 15px 15px;
-  position: fixed;
-	background-color:#3d3d3d;
+  position:absolute;
+	background-color:#605E5E;
   width: 360px;
+
 }
 
-nav .arrow-left, .routedata{
-	display: inline-block;
-}
-
-.arrow-left {
-	padding-top: 5px;
-	margin-left: 6px;
-}
- .fa-inverse{
-    color: #15b371;
-}
-
-.routedata{
-	font-size: 18px;
-	padding-left: 18%;
-	font-weight: medium;
-	color: white;
-}
 
 .list {
 	box-sizing: border-box;
-  padding-top: 50px;
-	width: 100%;
-}
-.list2{
-	box-sizing: border-box;
+  padding-top: 57px;
 	width: 100%;
 }
 
 
-.bound h2 {
+
+.bound {
 padding-left: 21px;
 padding-top: 10px;
-padding-bottom: 10px;
 background-color: #605E5E;
 color:white;
-font-weight:200;
+font-weight: 300;
 font-size: 14px;
-margin-top: 5px;
+}
+.bound h2{
+	padding-top:5px;
 }
 
-
-
-.LDF div, h3 {
-	display:inline-block;
+.bound li {
+	font-weight:400;
 	font-size: 14px;
-	font-weight: bold;
- 	color:white;
 }
-.line{
-	padding:10px;
-	padding-left:21px;
-}
-.destination{
-	margin-left: 19px;
 
-}
-.frequency{
-	padding:10px;
-	margin-left: 65px;
-}
 
 /* content is the darker block */
 .content {
 	width: 360px;
 	background-color:#3D3D3D;
-	border-bottom: .5px solid#525252;
-}
-.content:hover{
 
+}
+.information:hover{
 	opacity: 0.3;
   filter: alpha(opacity=30);
 }
 
-
-.information div {
-	padding: 6%;
+.information  {
+	border-bottom: 1px solid#525252;
 }
-.information div, h4{
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+
+li  {
+  display:inline-block ;
+  color: white;
+	font-weight: 300;
 	font-size: 12px;
-	display: inline-block;
-	color:white;
+	padding:5%;
+
+
+
 }
-
-
+/*This is the Line, Destination, and Frequency adjustments*/
+#LDF {
+	background: #605E5E;
+}
+#LDF li.line {
+margin-right:-5px;
+margin-left: -16px;
+}
+#LDF li.destination {
+margin-right: 41px;
+}
+#LDF li.arrival {
+margin-right:
+}
 
 	/* This is for adjusting the margins for the information */
-	/*Couldn't figure out a better way to do this */
+
+#first-info li.info1 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#first-info li.info11 {
+	font-weight:500;
+}
+#first-info li.info111 {
+margin-left:4px;
 }
 
-.info1 {
-margin-right: 1px;
+#second-info li.info2 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#second-info li.info22 {
+margin-right:61px;
+font-weight:500;
+}
+#second-info li.info222 {
+
 }
 
-.info11{
-margin-right: -4px;
+#third-info li.info3 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#third-info li.info33 {
+margin-right:46px;
+font-weight:500;
+}
+#third-info li.info333 {
+
 }
 
-.info2 {
-margin-right: -4px;
+#fourth-info li.info4 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#fourth-info li.info44 {
+margin-right:10px;
+font-weight:500;
+}
+#fourth-info li.info444 {
+
 }
 
-.info22{
-margin-right: 55px;
+#fifth-info li.info5 {
+vertical-align: middle;
+margin-right: -12px;
 }
+#fifth-info li.info55{
+margin-right:61px;
+font-weight:500;
 
+}
+#fifth-info li.info555 {
 
-.info3{
-margin-left: 1px;
-margin-right: -6px;
 }
-.info33{
+#sixth-info li.info6 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#sixth-info li.info66 {
+margin-right:-5px;
+font-weight:500;
+}
+#sixth-info li.info666 {
 
-margin-right: 21px;
 }
+#seventh-info li.info7 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#seventh-info li.info77 {
+margin-right:32px;
+font-weight:500;
+}
+#seventh-info li.inf0777 {
 
-.info4{
-margin-left: 1px;
-margin-right: -6px;
 }
-.info44{
-margin-right: -13px;
+#eighth-info li.info8 {
+vertical-align: middle;
+margin-right: -12px;
 }
+#eighth-info li.info88 {
+margin-right:66px;
+font-weight:500;
+}
+#eighth-info li.info888 {
 
+}
+#ninth-info li.info9 {
+vertical-align: middle;
+margin-right: -12px;
+}
+#ninth-info li.info99 {
+margin-right:14px;
+font-weight:500;
+}
+#ninth-info li.info999 {
 
-.info5{
-margin-left: 1px;
-margin-right: -4px;
-}
-.info55{
-margin-right: 33px;
-}
-
-.info6{
-margin-left: 1px;
-margin-right: 1px;
-}
-.info66{
-margin-right: -10px;
-}
-
-
-.info7{
-margin-left: 1px;
-margin-right: 7px;
-}
-.info77{
-margin-right:29px;
-}
-
-.info8{
-margin-left: 1px;
-margin-right: 2px;
-}
-.info88{
-margin-right:60px;
-}
-
-.info9{
-margin-left: 1px;
-margin-right: -5px;
-}
-.info99{
-margin-right:8px;
 }
