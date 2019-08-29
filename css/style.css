@@ -15,9 +15,28 @@ body {
 	background-color: #605E5E;
 }
 
-.status_bar{
-	margin-bottom:-4px;
+
+
+
+form {
+padding-left: 90px;
+position: absolute;
+top: 30%;
 }
+
+form input {
+  border: none;
+  background: transparent;
+  outline: none;
+	font-family: 'Roboto', sans-serif;
+	color:#ffffff;
+}
+
+::placeholder {
+  color: #C9C9C9;
+}
+
+
 
 nav {
 	box-sizing: border-box;
@@ -112,7 +131,7 @@ margin-right: -12px;
 	font-weight:500;
 }
 #first-info li.info111 {
-margin-left:4px;
+margin-left:17px;
 }
 
 #second-info li.info2 {
@@ -120,7 +139,7 @@ vertical-align: middle;
 margin-right: -12px;
 }
 #second-info li.info22 {
-margin-right:61px;
+margin-right:75px;
 font-weight:500;
 }
 #second-info li.info222 {
@@ -132,7 +151,7 @@ vertical-align: middle;
 margin-right: -12px;
 }
 #third-info li.info33 {
-margin-right:46px;
+margin-right:62px;
 font-weight:500;
 }
 #third-info li.info333 {
@@ -144,7 +163,7 @@ vertical-align: middle;
 margin-right: -12px;
 }
 #fourth-info li.info44 {
-margin-right:10px;
+margin-right:26px;
 font-weight:500;
 }
 #fourth-info li.info444 {
@@ -156,7 +175,7 @@ vertical-align: middle;
 margin-right: -12px;
 }
 #fifth-info li.info55{
-margin-right:61px;
+margin-right:75px;
 font-weight:500;
 
 }
@@ -168,7 +187,7 @@ vertical-align: middle;
 margin-right: -12px;
 }
 #sixth-info li.info66 {
-margin-right:-5px;
+margin-right:18px;
 font-weight:500;
 }
 #sixth-info li.info666 {
